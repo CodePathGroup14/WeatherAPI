@@ -105,7 +105,7 @@ private func makeDataRequest(forCoorfinates coordinates: CLLocationCoordinate2D)
     }
 
 ```
-## User Stories
+## User Stories (Unit 7)
 
 The following **required** functionality is completed:
 
