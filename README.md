@@ -101,5 +101,13 @@ private func makeDataRequest(forCoorfinates coordinates: CLLocationCoordinate2D)
         }.resume()
         
     }
+ ## User Stories
+
+The following **required** functionality is completed:
+
+- [x] Home Screen Completion. 
+- [x] Linking and Titles. 
+- [x] Formating App. 
+- [x] API Call To Fetch Data. 
 ```
 
