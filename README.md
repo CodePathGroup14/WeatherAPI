@@ -117,4 +117,6 @@ The following **required** functionality is completed:
 ## GIF
 https://imgur.com/a/tVVn00f
 
+<img src='http://g.recordit.co/5e3OoVdaak.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
