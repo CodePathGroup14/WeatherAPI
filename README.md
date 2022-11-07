@@ -51,7 +51,7 @@ We are building a weather app that displays the weather, the place, and if it is
 ## Wireframes
 
 
-<img src= https://raw.githubusercontent.com/CodePathGroup14/WeatherAPI/main/IMG_3451.jpg width=400>
+<img src= https://raw.githubusercontent.com/CodePathGroup14/WeatherAPI/main/IMG_3451.jpg width=600>
 
 
 
