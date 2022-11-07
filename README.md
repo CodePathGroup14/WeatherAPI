@@ -114,3 +114,4 @@ The following **required** functionality is completed:
 - [x] Formating App. 
 - [x] API Call To Fetch Data. 
 
+<img src='https://imgur.com/a/tVVn00f' title='Video Walkthrough' width='' alt='Video Walkthrough' />
