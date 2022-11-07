@@ -50,7 +50,7 @@ We are building a weather app that displays the weather, the place, and if it is
 
 ## Wireframes
 
-![IMG_3451](https://user-images.githubusercontent.com/96157136/200223076-37e85233-5148-45b9-a141-0dff3d039cc8.JPG)
+
 <img src= https://raw.githubusercontent.com/CodePathGroup14/WeatherAPI/main/IMG_3451.jpg width=400>
 
 
