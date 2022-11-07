@@ -48,4 +48,54 @@ We are building a weather app that displays the weather, the place, and if it is
 
 
 
+## Wireframes
+![IMG_3451](https://user-images.githubusercontent.com/96157136/200222710-d2f75dd0-2a18-4f7d-a5bd-d0e22478e0e1.JPG)
+
+
+## Schema 
+[This section will be completed in Unit 9]
+
+### Models
+Property           |  Type
+:-------------------------:|:-------------------------:
+ objectId |  String
+ authData | Object
+ text | String
+ 
+ 
+
+### Networking
+- Home Screen 
+```
+var body: some View {
+        VStack{
+            Text(viewModel.cityName)
+                .font(.largeTitle)
+                .padding()
+            Text(viewModel.temperature)
+                .font(.system(size: 70))
+                .bold()
+            Text(viewModel.weatherIcon)
+                .font(.largeTitle)
+                .padding()
+            Text(viewModel.weatherDescription)
+        }.onAppear(perform: viewModel.refresh)
+    }
 }
+```
+- Network request 
+```
+private func makeDataRequest(forCoorfinates coordinates: CLLocationCoordinate2D){
+        guard let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(coordinates.latitude)&lon=\(coordinates.longitude)&appid=\(API_KEY)&units=metric".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
+        guard let url = URL(string: urlString) else { return }
+        
+        URLSession.shared.dataTask(with: url) {data, response, error in guard error == nil, let data = data else { return }
+            if let response = try? JSONDecoder().decode(APIResponse.self, from: data) {
+                self.completionHandler?(Weather(response: response))
+            }
+            
+        }.resume()
+        
+    }
+```
+
