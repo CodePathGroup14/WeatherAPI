@@ -119,4 +119,16 @@ https://imgur.com/a/tVVn00f
 
 <img src='http://g.recordit.co/5e3OoVdaak.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+## User Stories (Unit 8)
+
+The following **required** functionality is completed:
+
+- [x] Search Bar With Plus Button. 
+- [x] Allows User To Add A City. 
+- [x] Shows all the cities in US based on the users input. 
+
+## GIF
+
+<img src='http://g.recordit.co/7zs6oRWM7P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
