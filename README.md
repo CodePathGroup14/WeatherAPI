@@ -131,4 +131,15 @@ The following **required** functionality is completed:
 
 <img src='http://g.recordit.co/7zs6oRWM7P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+## User Stories (Unit 8)
+
+The following **required** functionality is completed:
+
+- [x] Implement clothing recommendations for users.
+- [x] Adding userflow from home screen to search bar and clothing recommendation.
+
+## GIF
+
+<img src='http://g.recordit.co/eWYCrjmPPK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
