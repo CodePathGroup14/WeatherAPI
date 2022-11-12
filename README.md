@@ -131,7 +131,7 @@ The following **required** functionality is completed:
 
 <img src='http://g.recordit.co/7zs6oRWM7P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## User Stories (Unit 8)
+## User Stories (Unit 9)
 
 The following **required** functionality is completed:
 
